@@ -15,20 +15,26 @@ A(B);
 ///////////////////////////////////////////
 
 // Exercise 2
-const workers =
-    {name:'Ali', position: 'HR'};
+const workers =[
+    {name:'Ali', position: 'HR'},
+    {name:'Abu', position: 'IT'}
+]
 
 function C(callback){
     setTimeout(()=>{
-        var abc = workers.name
-        console.log(abc);
+        for(var i in workers){
+            var abc = workers[i].name
+            console.log(abc);
+        }
         callback();
     },800)
 }
 function D(){
     setTimeout(() =>{
-        var xyz = workers.position
-        console.log(xyz);
+        for(var i in workers){
+            var xyz = workers[i].position
+            console.log(xyz);
+        }
     }, 700)
 }
 
