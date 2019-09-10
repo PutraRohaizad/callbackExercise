@@ -4,13 +4,13 @@ function B(){
         console.log('world');
     },200);
 }
-function A(post,callback){
+function A(callback){
     setTimeout(() =>{
         console.log('hello');
         callback();
     }, 500)
 }
-A('post',B);
+A(B);
 
 ///////////////////////////////////////////
 
@@ -18,7 +18,7 @@ A('post',B);
 const workers =
     {name:'Ali', position: 'HR'};
 
-function C(val,callback){
+function C(callback){
     setTimeout(()=>{
         var abc = workers.name
         console.log(abc);
@@ -32,4 +32,4 @@ function D(){
     }, 700)
 }
 
-C('val',D);
+C(D);
