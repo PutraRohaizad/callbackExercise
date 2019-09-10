@@ -12,11 +12,11 @@ function A(callback){
 }
 A(B);
 
-///////////////////////////////////////////
+////////////////////////////////////////////
 
 // Exercise 2
 const workers =[
-    {name:'Ali', position: 'HR'},
+    {name:'Ali', position: 'HRR'},
     {name:'Abu', position: 'IT'}
 ]
 
