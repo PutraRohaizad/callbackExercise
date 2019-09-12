@@ -1,4 +1,4 @@
 # callbackexercise
 My understanding : 
-- Callback have 2 parameters.
-- Purpose of callback is to let other function to execute without need to wait for others function to complete and call it when neeeded.
+- To use callback need to have at least 2 parameters in a function.
+- Purpose of callback is to let a function to finish execute before other function to be execute.
